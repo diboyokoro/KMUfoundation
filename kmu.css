@@ -1,0 +1,161 @@
+
+body{
+    background-image:url(Capture.PNG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.2px;
+    
+
+}
+    
+    
+div.header{
+    background-color: antiquewhite;
+    border-style: outset;
+    height: 50px;
+}  
+.kmu{
+    position:relative;
+    color: blue;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+    
+.sub{
+    color: blue;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+.Contact{
+    position: absolute;
+    display: flexbox;
+    margin-top: -40px;
+    margin-left: 1200px;
+    cursor: pointer;
+    color: rgb(1, 10, 19);
+    font-size: 20px;
+    
+}
+.pasion{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 400px;
+    cursor: pointer;
+    color: rgb(1, 10, 19);
+    font-size: 20px;
+}
+.welcome{
+    margin-left: 100px;
+    color: brown;
+    text-align:center;
+    line-height: 5px;
+}
+
+   
+
+
+.goal{
+    text-align: center;
+    line-height: 80px;
+    font-size: 80px;
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 7px;
+    -webkit-text-stroke-color: rgb(3, 3, 3);
+}
+.exp{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-left: 600px;
+    margin-top: -50px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-underline-offset: 10px;
+}
+.contact2{
+    margin-left: 500px;
+    margin-top: 50px;
+    
+}
+.form{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-left: 580px;
+    margin-top: 50px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    text-underline-offset: 10px;
+}
+@media(max-width: 600px){
+    .welcome{color: rgb(34, 2, 26);
+    font-size: large;
+    margin-left: -10px;
+
+}}
+
+@media (max-width: 600px)    
+{.goal{
+    color: rgb(255, 254, 254);
+    font-size: 50px;
+    -webkit-text-stroke: 4px;
+    -webkit-text-stroke-color: rgb(94, 57, 2);
+}}
+@media (max-width: 600px) {
+   .pasion{
+    color: rgb(5, 5, 5);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:  rgb(94, 57, 2);
+    font-size: 20px;
+    font-family: "Gilda Display", serif;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 600px;
+    text-align: justify;}
+}
+
+@media (max-width: 600px)    
+{.exp{
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+    margin-left: 100px;}
+    
+}
+@media (max-width: 600px)    
+{.form{
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+    margin-left: 75px;}
+
+}
+@media(max-width: 600px){
+    .Contact{color: rgb(34, 2, 26);
+    font-size: large;
+    margin-left: 300px;
+    margin-top: -60px;
+}
+}
+@media(max-width: 600px){
+    .contact2{color: rgb(34, 2, 26);
+    font-size: large;
+    margin-left: 100px};}
+@media (max-width: 600px) {
+    div.header{
+       width: 100%;}
+    
+
+}@media (max-width: 600px) {
+.kmu{
+    margin-left: 10px;
+    margin-top: -10px;}
+}
+@media (max-width: 600px) {
+    .sub{
+        margin-left: 50px;
+        margin-top: -20px;}
+    }
